@@ -1,0 +1,21 @@
+Next meeting: Saturday 10/11 - 14 September
+
+TO-DO before then:
+
+Dom:
+- Hello World Android Studio project on Lab machine (CECS labs) push to the Gitlab repository
+- Create draft UI (Welcome activity, main simple calculator, functions page)
+
+Nicho:
+- Minutes 1 on the Wiki
+- Agenda for Meeting 2
+- Initial research & design for parser/tokenizer
+ 
+Both:
+- Watch & work through at least 1 Youtube tutorial on creating a simple calculator
+https://www.youtube.com/watch?v=3GD-37GQp6c
+https://www.youtube.com/watch?v=TP4nk8Ef4IU
+- Download some calculator apps & think about what ideas we could use
+- Read through the project task again & bring any questions to the next meeting
+- (If have extra time) Research how to implement the features
+- Initial design ideas e.g. which classes we will need, OO aspects
