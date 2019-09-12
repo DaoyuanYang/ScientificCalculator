@@ -121,5 +121,16 @@
             app:layout_constraintBottom_toTopOf="@+id/button6"
             app:layout_constraintStart_toEndOf="@+id/button8" />
 
+        <Button
+            android:id="@+id/buttonFunction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:textSize="10dp"
+            android:text="My Functions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

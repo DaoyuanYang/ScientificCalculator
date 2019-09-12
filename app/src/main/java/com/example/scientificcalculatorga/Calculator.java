@@ -1,7 +1,9 @@
 package com.example.scientificcalculatorga;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.arch.core.util.Function;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,6 +27,7 @@ public class Calculator extends AppCompatActivity {
     private Button button8;
     private Button button9;
     private Button buttonEqual;
+    private Button buttonFunction;
     EditText myText;
 
     private List<Button> buttonList = new ArrayList<>();
@@ -48,6 +51,14 @@ public class Calculator extends AppCompatActivity {
         button8 = findViewById(R.id.button8);
         button9 = findViewById(R.id.button9);
         buttonEqual = findViewById(R.id.buttonEqual);
+        buttonFunction = findViewById(R.id.buttonFunction);
+
+        buttonFunction.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                jumpToFunction();
+            }
+        });
 
         buttonList = Arrays.asList(buttonEqual,button0,button1,button2,button3,button4,
                 button5,button6,button7,button8,button9,buttonDclPt);
@@ -70,5 +81,11 @@ public class Calculator extends AppCompatActivity {
         else{
             myText.setText(str);
         }
+    }
+
+    public void jumpToFunction(){
+        Intent intent = new Intent(this, FunctionDefining.class)
+                .setFlags(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
+        startActivity(intent);
     }
 }
