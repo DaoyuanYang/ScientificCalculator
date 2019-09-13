@@ -25,6 +25,7 @@ public class FunctionDefining extends AppCompatActivity {
     }
 
     public void returnToCalculator(){
-        finishActivity(Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT);
+        // Return to the previous activity
+        super.onBackPressed();
     }
 }
