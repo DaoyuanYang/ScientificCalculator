@@ -1,0 +1,22 @@
+Calculator was crashing when try to go from mainActivity to Calculator
+App due next Friday
+Meeting on Saturday
+
+DY:
+- backspace needs to not crash app when trying to delete something that doesn't exist (add if statement or catch exception & do nothing)
+- set 'ans' to answer variable in Calculator class when click '=' on an expression
+- catch exception when invalid expression
+- should display "Error" or more specific error text when invalid calculator string entered
+- backspace after have clicked enter should not delete all the user string, same with left arrow and right arrow...
+- implement remaining buttons to add text to string
+- screen should never go longer than button area... should always stay on top of buttons
+- parameterize dimensions instead of have a fixed number of possibilities...
+
+NB:
+- unit testing evaluator and handling exceptions so app doesn't close
+- potentially editing strings to add missing * e.g. 888abs(8) changes to 888... An option: "Did you mean?"
+- evaluating 8+ans.... should replace ans with double before evaluated by javaluator
+- parameterizing xml based on size of device
+- think about initializing functions to empty string instead of null
+- change filepath to internal storage (if need to)
+- defining functions in javaluator & testing

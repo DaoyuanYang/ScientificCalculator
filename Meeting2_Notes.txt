@@ -1,0 +1,26 @@
+-Test the project on Lab Computers
+Dom: Android Studio 3.5
+API Level 27, 28, 29 partially installed
+
+-----------
+Action items for next week:
+
+NB: test the project in CECS
+NB: put calculator buttons image in meeting minutes
+DOM & NB: examine your hand-held calculators & bring one to next meeting?
+Dom: storing data and reloading it when app is run again (e.g. user-defined functions)
+NB: tokenizer & parser design...basic design & look into a grammar
+Dom: add in the remaining calculator buttons (for example, clicking on the 'abs' button would add 'abs(' to the text so the user doesn't have to type the left parenthesis
+Dom: Meeting Minutes 2 & Meeting 3 Agenda
+--------
+Initial plan:
+
+Week 7: (by meeting) Updated UI with more calculator buttons, basic tokenizer/parser code 
+Week 8: (by meeting) refining UI and basic function definition idea/UI, advanced tokenizer/parser implemented & unit testing of parser
+Week 9: (by meeting) Function definition activity, more unit testing, initial user testing
+Week 10: Integration testing, Draft Wiki, Project complete by Week 10 Friday
+
+Week 11: Final bug testing, Finalize Wiki, Project due Week 11 Friday
+------------
+Meetings will be held on Saturday mornings... 10am. We will book meetings as soon as possible.
+Next meeting Hancock 3.27 10am-12pm.

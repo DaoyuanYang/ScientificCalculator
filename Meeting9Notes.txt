@@ -1,0 +1,5 @@
+- unit testing of ExtendedEvaluator, UserFunctions (e.g. aim for 80%)...
+- make MainActivity (welcome page) more interesting e.g. add a background image and some text about what the app does. put our names on there. maybe we can have buttons which show popups of how to use the app.... Maybe Calculator activity will need to be able to return to this welcome activity?
+- instrumented testing
+- parameterize layout xml files e.g. instead of setting font size for every button, could create a constant value at top of xml file and just set them all to this constant instead. Test on different devices.
+- make calculator more interesting visually e.g. adding some colours e.g. grey to buttons, maybe red for backspace and yellow (look at app store apps)

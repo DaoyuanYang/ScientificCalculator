@@ -1,0 +1,35 @@
+x^2 is adding ^() not ^(2)... 
+x^y is adding ^(2)
+
+sin(8) when rad setting gives same as sin(8) when deg setting
+
+pressing any key after clicking enter shouldn't clear previous string.. should just add to the previous string.. clicking AC would remove previous string from the window so user could type a new one (important)
+
+better to use pi symbol rather than 'pi'
+
+put symbols on LTAR, RTAR and BACKSPACE keys
+
+clicking ans should just show `ans' instead of showing the double result (I think this is best...then when we evaluate the string using DoubleEvaluator...we can replace 'ans' with the double string before evaluating it.)
+
+RAN# should maybe show less decimal places
+
+Change `IllegalInput' to 'Input error' or 'Error in input'
+
+Keyboard can still pop up which moves buttons instead of keyboard displaying over the top of the buttons
+disable keyboard
+Disabling keyboard: https://stackoverflow.com/questions/10636635/disable-keyboard-on-edittext
+
+We need to add to the edit functions page
+
+Need to make it rescale on different devices.
+
+shift setting should revert to non shift after a key was pressed***
+is confusing for new users as it is
+
+where are we gonna put the plot button
+
+MENU does nothing right now...maybe change it to `HELP' or `HOW TO' or 'GUIDE'
+and we can put the instructions there. Otherwise, we need to think what kind of 
+options should go in MENU
+
+

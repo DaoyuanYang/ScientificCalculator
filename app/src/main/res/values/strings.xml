@@ -1,3 +1,51 @@
 <resources>
-    <string name="app_name">ScientificCalculatorGA</string>
+    <string name="app_name">CalculatorApp</string>
+
+    <string name="leftArrow">&#9664;</string>
+    <string name="rightArrow">&#9654;</string>
+    <string name="backSpace">&#9003;</string>
+
+    <string name="welcomeText">"Welcome to Calculator!!!"</string>
+    <string name="authorship"></string>
+
+    <string name="versionStatement">Version 1.0, Oct 2019</string>
+
+    <string name="user_guide_content"><b>Editing and Using User-Defined Functions</b>
+        \n\n\n
+        Functions are defined by first clicking <b>EDIT_F button</b>, which shows a dialog
+        where users can pick one of six functions (f0 to f5) to edit. Clicking one of
+        the functions will change the calculator to <b>edit mode</b> where text above the
+        expression input will change to <b>Editing f$:</b> to remind the user they are in
+        edit-mode. Entering edit mode will keep the previous mathematical expression
+        unless it contains a user-defined function or ANS, as these cannot be used in
+        user-defined functions Functions are inputted with the same scientific keyboard
+        as before, but with four new buttons that appear in edit mode: x, y, z, and SAVE_F
+        \n\n\n
+        The function inputted can have between 0 and 3 variables. <b>x</b>, <b>y</b>, and <b>z</b> are the
+        three variables that can be used in the functions. A function with 0 variables would
+        be simply entering a mathematical expression as the function (e.g. <b>3</b> or <b>cos(45)</b> ),
+        while a function with 3 variables would include <b>x</b>, <b>y</b>, and <b>z</b>. Functions are saved
+        by clicking the SAVE_F button or the = button. The user will receive a message
+        "Edited f$!" (where $ is replaced with 0, 1, 2, 3, 4, or 5), which means that
+        the function was successfully edited and saved. Edit-mode is automatically exited.
+    \n\n\n
+    Functions can be saved even if they are incorrect, but some processing takes place to
+        ensure the functions behave as expected. Notably, if a single-variable equation
+        was entered, the single-variable is always saved as <b>x</b> (even if only <b>y</b> or <b>z</b>
+        was used). For a double-variable equation, this is always saved as
+        using <b>x</b> and <b>y</b> (f(y,z) and f(x,z) would both be saved as f(x,y)). Variables
+        are always shifted backwards towards the start of the alphabet (e.g. the <b>y</b>s in f(y,z)
+        would become <b>x</b>s and the <b>z</b>s would become <b>y</b>s).
+    \n\n\n
+    Functions are called by pressing the USE_F button and clicking which function to use.
+        Function arguments are separated using the comma button, and they always
+        correspond to the variables in alphabetical order (e.g. f0(), f0(x), f0(x,y) or
+        f0(x,y,z) if f0 was selected). Supplying the wrong number of function arguments
+        will return an Input Error message. Note that multiple user-defined functions can be
+        used in one mathematical expression, and an argument of a user-defined function can
+        even be a user-defined function.
+    \n\n\n
+        For more information, the full user manual is available at:
+        <a href="https://gitlab.cecs.anu.edu.au/u6999534/gp19s2/wikis/App-Summary-and-Manual">
+            https://gitlab.cecs.anu.edu.au/u6999534/gp19s2/wikis/App-Summary-and-Manual</a></string>
 </resources>

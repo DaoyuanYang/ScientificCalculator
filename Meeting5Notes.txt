@@ -1,0 +1,57 @@
+DY:
+- finish meeting minutes
+- equation editing with left arrow, right arrow, backspace after computed result
+- Parameterizing your layouts so they work on different screen sizes
+- Buttons should always below screen
+- Buttons should get smaller or bigger depending on screen size
+- keep implementing buttons to add to the userString
+- Remove green bar at top if possible
+- make result bigger
+
+NB:
+- delete my project and my .gradle project then try pull DY's project
+- work on how to handle user-defined functions
+- look into saving and loading functions
+- add in the tokenizer
+
+------------------
+RANDOM NOTES:
+
+Make sure buttons always below calculator screen....
+How to delete app name bar at top of app Android Studio
+using Javaluator
+String expression = "(2^3-1)*sin(pi/4)/ln(pi^2)";
+Double result = new DoubleEvaluator().evaluate(expression);
+Equation editing (i.e. after computing a certain equation, one can modify the computed equation and recompute the result)
+Clicking left or right arrow or backspace after clicked enter should place cursor at end of previous userString and allow them to edit it
+
+NB: Look into user-defined functions (how can we let user define them..and how can we parser them/show them in userString)
+
+f1(a,b,x,y,z)
+f2(a,b,x,y,z) = x^2 + a^2
+
+x? 32.352
+a? 352.235
+
+DoubleEvaluator
+
+replace x and a with their values in parentheses
+userString
+(32.352)^2 + (352.235)^2 
+
+---> can tokenize expression using tokenizer I did to get the variables
+---> x, a
+---> f1(a, x)
+---> "1 + 2 + 2.43958349583 + "
+
+f3(a,b,x,y,z) =
+f4(a,b,x,y,z)
+f5(a,b,x,y,z)
+.....................
+LOOK INTO EXCEPTION HANDLING e.g. display error message when mismatched brackets...
+can store functions in bespoke format
+---------------
+
+
+
+

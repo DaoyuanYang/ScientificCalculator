@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_activity_width">130dp</dimen>
+    <dimen name="button_activity_height">60dp</dimen>
+
+    <dimen name="margin_between_buttons">20dp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+
+    <dimen name="display_text_size">25sp</dimen>
+    <dimen name="result_text_size">37.5sp</dimen>
+    <dimen name="myText_height">190dp</dimen>
+
+    <dimen name="display_height">250dp</dimen>
+    <dimen name="keyboard_height"></dimen>
+
+    <dimen name="welcome_text_size">50sp</dimen>
+
+</resources>
